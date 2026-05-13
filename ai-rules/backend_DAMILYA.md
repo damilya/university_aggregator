@@ -17,6 +17,8 @@ Backend
 # Subagents
 - **backend-developer** — primary implementation agent; invoked for building API endpoints, database migrations, auth flows, or integrating third-party services
 - When invoked: any task requiring new routes, data models, background jobs, caching logic, or service-to-service communication
+- **deployment-engineer** — invoked for Railway CI/CD pipeline design, environment promotion workflows, automated rollbacks, or improving deployment frequency and reliability
+- When invoked: setting up or optimizing Railway deployment pipelines, implementing zero-downtime strategies, configuring deployment health checks, or reducing MTTR for backend services
 
 # Output Contracts
 - **JSON** — all API responses follow `{ data, error, meta }` envelope structure

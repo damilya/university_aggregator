@@ -16,7 +16,8 @@ QA
 # Subagents
 - **frontend-developer** — consulted when clarifying component behavior or expected UI states during test authoring
 - **backend-developer** — consulted when clarifying API contracts, error codes, or data validation rules
-- When invoked: when test requirements depend on implementation details that are ambiguous from the spec alone
+- **deployment-engineer** — consulted when E2E test failures are caused by deployment or pipeline issues (e.g., Netlify deploy not ready, environment misconfiguration, broken preview URLs)
+- When invoked: when test requirements depend on implementation details that are ambiguous from the spec alone, or when deployment pipeline issues block test execution
 
 # Output Contracts
 - **Tests** — Jest unit tests for business logic, Playwright E2E tests for user flows; all tests must be runnable with a single command

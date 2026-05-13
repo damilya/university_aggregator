@@ -16,6 +16,8 @@ Frontend
 # Subagents
 - **frontend-developer** — primary implementation agent; invoked when building new pages, components, or migrating UI frameworks
 - When invoked: any task requiring multi-file component work, state management setup, responsive layout, or framework-specific patterns
+- **deployment-engineer** — invoked for Netlify CI/CD automation, build pipeline optimization, deploy previews configuration, or rollback strategies
+- When invoked: setting up automated deploy workflows, configuring branch deploy rules, optimizing build times, or implementing canary/blue-green strategies for the frontend
 
 # Output Contracts
 - **JSX/TSX** — React components with typed props interfaces, no `any` types
