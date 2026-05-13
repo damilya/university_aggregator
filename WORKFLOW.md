@@ -1,0 +1,4 @@
+1. AI saved tremendous time on scraping content of the websites, creating the whole codebase and connecting parts in the end.
+2.1. It mistakenly put .claude in the commit history, so it was not very smart at pushing GITs, but it was correct not expose my tokens and it did not add .mcp.json file.
+2.2. It also could not parse the reference website properly, so you have an 'ugly' and functional website only for top 50 universities of the world. Given more time, I would have found and connected a proper DB.
+3. The whole setup, writing the code, deploying it and pushing git commits would have taken X3 times if done manually.
